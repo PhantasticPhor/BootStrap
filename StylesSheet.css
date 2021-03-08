@@ -1,2 +1,9 @@
 
 /* Universal Styles */
+
+.backgroundStyle{
+    background-image: url("./Pictures/staticSpace.gif");
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
