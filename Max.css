@@ -1,0 +1,114 @@
+                                                             /*Max's Style Page*/
+        
+        
+        /*Animation Section*/
+.coolBall {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: medium;
+    border-color: black;
+    background: linear-gradient(0deg, red, red, rgb(255, 81, 1), orange, rgb(255, 153, 0), yellow, rgb(255, 230, 0));
+    position: relative;
+  }
+
+  .ball-1 {
+    animation-name: fireBall;
+    float: right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+
+  .ball-2 {
+    animation-name: fireBall-2;
+    float: right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+
+  .ball-3 {
+    animation-name: fireBall-3;
+    float: right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes fireBall {
+    0% {
+      top: 0px;
+    }
+
+    50% {
+      top: 300px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  @keyframes fireBall-2 {
+    0% {
+      top: 0px;
+    }
+
+    5% {
+      top: 0px;
+    }
+
+    50% {
+      top: 300px;
+    }
+
+    55% {
+      top: 300px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  @keyframes fireBall-3 {
+    0% {
+      top: 0px;
+    }
+
+    10% {
+      top: 0px;
+    }
+
+    50% {
+      top: 300px;
+    }
+
+    60% {
+      top: 300px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  #maxListText {
+    margin: 0 25px;
+    color: white;
+    font-size: 25px;
+    font-family: monospace ;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+  }
+
+  .torchImgSize {
+    font-size: 20;
+    width: 200px;
+    height: 379.15px;
+    padding: 20px 0 0 0;
+    float: left;
+       
+  }
