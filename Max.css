@@ -114,8 +114,18 @@
   }
 
   #maxIMG.torchImgSize{
-    width: 300px;
-    height: 300px;
-    padding: 10px;
+    width: 250px;
+    height: 250px;
     float: left;
+    padding: 10px;
+  }
+
+  #maxText {
+    margin: 0 25px;
+    color: white;
+    background-color:rgba(54, 151, 203, 0.4);
+    border-color: #212529;
+    font-size: 21px;
+    font-family: monospace ;
+    padding: 10px;
   }
