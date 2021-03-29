@@ -59,15 +59,16 @@ function randomEvent() {
 //User input string into Textbox
 function textBoxChange() {
     var x = document.getElementById("Display4");
+    var y = document.getElementById("myText").value;
 
-    if (document.getElementById("myText").value == "")
+    if (y == "")
     {
         x.innerHTML = "Please enter a name!"
     }
-    else if (document.getElementById("myText").value == "Jason Bourne") {
+    else if (y.value == "Jason Bourne") {
         x.innerHTML = "Oh... I guess you do know your name."
     }
     else{
-        x.innerHTML = "No! Your name isn't " + document.getElementById("myText").value + "!" + " It's Jason Bourne!"
+        x.innerHTML = "No! Your name isn't " + y + "!" + " It's Jason Bourne!";
     }
 }
