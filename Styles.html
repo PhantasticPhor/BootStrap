@@ -24,6 +24,169 @@
     crossorigin="anonymous"></script>
 <!---------------------->
 
+<!--Style Section of Page-->
+<style>
+    .phantastickBanner {
+        max-width: 1200px;
+        width: auto;
+        /* original img source: https://www.popshopguide.com/funko-pop-licenses/pop-marvel/fantastic-four/ */
+    }
+
+    #box-container {
+        height: 200px;
+    }
+
+    #infoContainer {
+        display: flex;
+        height: auto;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    #infoContainer p {
+        color: white;
+        font-size: 22px;
+        text-align: left;
+        text-indent: 2.0em;
+        padding: 10px;
+        font-family: monospace;
+
+    }
+
+
+    #box-1 {
+        border-color: black;
+        border-style: solid;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.609);
+        ;
+        background-color: yellow;
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        font-size: 50px;
+        padding: 10px;
+        font-family: fantasy;
+
+    }
+
+    #nameTitle {
+        text-align: left;
+        padding-left: 50px;
+        color: yellow;
+        font-family: fantasy;
+    }
+
+    #styleBody {
+        background-image: url("staticSpace.gif");
+        height: auto;
+        width: auto;
+    }
+
+    .Pics {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        float: left;
+        border: solid;
+        border-color: black;
+    }
+
+    .Pics:hover {
+        animation-name: imgAn;
+        animation-duration: 1000ms;
+        animation-fill-mode: forwards;
+    }
+
+
+    @keyframes imgAn {
+        100% {
+            border-radius: 20%;
+        }
+    }
+
+    .small {
+        font-size: 20px;
+        color: rgb(154, 39, 221);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-align: left;
+        opacity: 0.6;
+    }
+
+    .big {
+        font-size: 50px;
+        color: rgb(0, 255, 170);
+        text-align: left;
+        opacity: 0.6;
+
+
+    }
+
+    .text {
+        color: cornsilk;
+    }
+
+    .box34 {
+
+        background-color: blue;
+        border-color: rgb(219, 2, 2);
+        border-width: 2rem;
+        font-size: 40px;
+        color: rgb(190, 161, 42);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+
+    }
+
+    #fontfam p {
+        border-color: crimson;
+        border-style: dotted;
+        border-width: 2rem;
+        background-color: aqua;
+        font-size: 2rem;
+        color: rgb(255, 22, 22);
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    #fontfam h2 {
+        border-color: crimson;
+        border-style: dotted;
+        border-width: 2rem;
+        background-color: aqua;
+        font-size: 2rem;
+        color: rgb(255, 22, 22);
+
+    }
+
+    #bullets {
+        color: white;
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    #fontfam3 {
+        background-color: gray;
+        border-radius: 50%;
+        border-width: 1rem;
+        border-style: ridge;
+    }
+
+    #fontfam3 p {
+        font-size: 2rem;
+        text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+    }
+
+    #fontfam4 {
+        background-image: linear-gradient(red, yellow, green);
+    }
+
+    #fontfam4 p {
+        font-size: 2rem;
+        letter-spacing: 10px;
+        word-spacing: 4px;
+    }
+</style>
+
 <body class="backgroundStyle">
 
     <!--Navbar-->
@@ -68,9 +231,109 @@
         </div>
     </nav>
 
+    <div id="box-container">
+        <div id="box-1">A Showcase Of Our Most Powerful Moves</div>
+    </div>
+
+    <h2 id="nameTitle">The Torch</h2>
+    <div id="infoContainer">
+        <img src="./Pictures/TorchCap.PNG" alt="Max" class="Pics">
+        <p>I am able to charge my body up so hot that I become as hot as the surface of the sun for a short amount of
+            time causing a massive heat wave in the form of a localized solar flair, to a particular target. I am only
+            able to do this every once in a while because of how much energy it takes me to do it.</p>
+    </div>
+
+    <br>
+
+    <h2 id="nameTitle">Susan Storm</h2>
+    <div id="infoContainer">
+        <img src="./Pictures/elastaGirlCap.PNG" alt="Max" class="Pics">
+        <p>Now you see me... Now you don't...</p>
+    </div>
 
 
+    <br>
 
+    <h2 id="nameTitle">The Thing</h2>
+    <div id="infoContainer">
+        <img src="./Pictures/ThingCap.PNG" alt="Max" class="Pics">
+        <p>Superhuman strength, increased stamina and durability</p>
+    </div>
+
+
+    <br>
+
+    <h2 id="nameTitle">Mr. Fantastic</h2>
+    <div id="infoContainer">
+        <img src="./Pictures/MrFantasticCap.PNG" alt="Max" class="Pics">
+        <p>I have the power to regenerate my body when it is destroyed!</p>
+    </div>
+
+    <!--CSS STYLE SECTION-->
+
+    <div id="box-1">
+        CSS Styling
+    </div>
+
+    <h2 id="bullets">
+        <ul>
+            <li>Text formatting using a specific font style</li>
+            <li>The use of border styles and background color was used as well</li>
+        </ul>
+    </h2>
+
+    <div id="fontfam">
+        <p>
+            Forgive the blantant use of Comic sans in this example of CSS inline Styling.
+        </p>
+    </div>
+
+    <h2 id="bullets">
+        <ul>
+            <li>An example of border radius and drop shadows </li>
+            <li>The use of quotations and bold formatting</li>
+        </ul>
+    </h2>
+
+    <div id="fontfam3">
+        <p>
+            <q>It takes <b>4</b> wipes to know it only took <b>3</b></q> <br> - Albert Einstein
+        </p>
+    </div>
+
+    <h2 id="bullets">
+        <ul>
+            <li>Use of background color gradients and letter spacing </li>
+        </ul>
+    </h2>
+
+    <div id="fontfam4">
+        <p>
+            <b><q>The naked man fears no pickpocket</q></b><br> - Mahatma Gandhi
+        </p>
+    </div>
+
+    <div class="text">
+        <h3>This is an <sup><b>example</b></sup> of text formatting and the use of colors and the use of opacity. </h3>
+    </div>
+
+    <div class="small">
+        <p>I am small</p>
+    </div>
+
+    <div class="big">
+        <p>I am <sup><b>b</b></sup><sub><b>i</b></sub>g</p>
+    </div>
+
+    <br>
+    <div class="text">
+        <h3>This is an example of using quotes, borders styles, and font styles.</h3>
+    </div>
+
+    <div class="box34">
+        <p><q>You know you're in love when you can't fall asleep because reality is finally better than your dreams.</q>
+            ― Dr. Seuss</p>
+    </div>
 
 </body>
 
