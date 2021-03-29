@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!--Individual Stylesheet-->
-    <link href="index.css" rel="stylesheet">
+    <link href="Random.css" rel="stylesheet">
     <!--Banner-->
     <div>
         <img src="./Pictures/phantastickPhorBanner.jpg.png" class="mx-auto d-block" />
@@ -68,22 +68,52 @@
         </div>
     </nav>
     
+    <!--RANDOM NUMBER GENERATOR-->
     <h2 id="Header2">Random Number Generator</h2>
 
     <div id="Background" style="text-align: center;">
-        <button onclick="myFunction()">Randomize</button>
-        <p id="demo" style="font-size: 300%; color: white;"></p>
-
-        <script>
-            function myFunction() {
-                var x = document.getElementById("demo")
-                x.innerHTML = Math.floor((Math.random() * 100) + 1);
-            }
-        </script>
+        <br>
+        <button id="Random" class="btn btn-primary btn-lg">Randomize</button>
+        <p id="Display">0</p>
     </div>
 
+
+    <!--CHANGE HTML ELEMENT -->
     <h2 id="Header2">Comic Sans Button Java HTML</h2>
 
+    <div id="Background" style="text-align: center;">
+        <br>
+        <button id="Comic" class="btn btn-primary btn-lg">Transform</button>
+        <p id="Display2">Slaw is the LAW!</p>
+    </div>
+
+    <h2 id="Header2">Random Number Generator With Event</h2>
+
+    <!--RANDOM NUMBER GENERATOR WITH EVENTS-->
+
+    <div id="Background" style="text-align: center;">
+        <br>
+        <button id="RandomEvent" class="btn btn-primary btn-lg">Randomize</button>
+        <p id="Display3">0</p>
+        <p id="Output"></p>
+    </div>
+
+    <!--TEXTBOX WITH INPUT-->
+
+    <h2 id="Header2">Textbox Event</h2>
+
+    <div id="Background" style="text-align: center;">
+        <br>
+        <p id="Display4">What is your name?</p>
+        <h3>Name:</h3><input type="text" id="myText" value="">
+        <button id="TextBox" class="btn btn-primary btn-lg">Submit</button>
+    
+    </div>
+
+    
+
+    <!--JAVA SCRIPT REFERENCE-->
+    <script src="Random.js"></script>
 
 </body>
 

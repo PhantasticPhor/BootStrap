@@ -1,0 +1,33 @@
+
+/* Random number generator button*/
+#Random { 
+    background-color: rgb(57, 199, 255);
+    border-radius: 30px;
+}
+
+
+/* #Random output */
+#Display { 
+    font-size: 300%;
+    color: white;
+}
+
+#Display2 {
+    font-size: 300%;
+    color: white;
+}
+
+#Display3 {
+    font-size: 300%;
+    color: white;
+}
+
+#Display4 {
+    font-size: 300%;
+    color: white;
+}
+
+#Output {
+    font-size: 300%;
+    color: white;
+}
