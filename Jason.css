@@ -6,7 +6,7 @@
     margin-top: 50px;
     animation-name: relative;
     
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     position: relative;
   }
@@ -27,4 +27,10 @@
     100% {
       top: 2000px;
     }
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
