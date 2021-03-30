@@ -5,7 +5,6 @@
     border-radius: 30px;
 }
 
-
 /* #Random output */
 #Display { 
     font-size: 300%;
@@ -19,15 +18,15 @@
 
 #Display3 {
     font-size: 300%;
-    color: white;
+    color: black;
 }
 
 #Display4 {
     font-size: 300%;
-    color: white;
+    color: black;
 }
 
 #Output {
     font-size: 300%;
-    color: white;
+    color: black;
 }
