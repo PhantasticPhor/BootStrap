@@ -10,7 +10,7 @@
 
 #Background {
     background-color:rgba(54, 151, 203, 0.4);
-    margin: 0 65px;
+    margin: 2%;
 }
 
 #textDisplay {
@@ -52,7 +52,9 @@
 
 #TeamList {
     background-color:rgba(54, 151, 203, 0.4);
-    margin: 0 20%;
+    padding-right: 1.5%;
+    margin: auto;
+    width: 65%;
 }
 
 #TeamList ul li {

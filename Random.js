@@ -26,8 +26,9 @@ function fontChange() {
     var x = document.getElementById('Display2')
 
     fontNumber = Math.floor((Math.random() * fonts.length));
-    x.innerHTML = 'Slaw is the LAW! in ' + fonts[fontNumber];
     document.getElementById('Display2').style.fontFamily = fonts[fontNumber];
+    x.innerHTML = 'Slaw is the LAW! in ' + fonts[fontNumber];
+    
 }
 
 //Use Random number generator to change elements within certain ranges
