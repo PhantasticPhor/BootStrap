@@ -86,7 +86,16 @@ function textBoxChange() {
     {
         x.innerHTML = "Please enter a name!"
     }
-    else if (y.value == "Jason Bourne") {
+    else if (y == "no") {
+        x.innerHTML = "Rude..."
+    }
+    else if (y == "No") {
+        x.innerHTML = "Rude..."
+    }
+    else if (y == "Jason Bourne") {
+        x.innerHTML = "Oh... I guess you do know your name."
+    }
+    else if (y == "jason bourne") {
         x.innerHTML = "Oh... I guess you do know your name."
     }
     else{
