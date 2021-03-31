@@ -33,26 +33,46 @@ function fontChange() {
 
 //Use Random number generator to change elements within certain ranges
 function randomEvent() {
-    var x = document.getElementById("Display3")
-    var y = document.getElementById("Output")
-    x.innerHTML = Math.floor((Math.random() * 100) + 1);
 
-    //String placeholders
-    if (x.innerHTML >= 0)
+    //Arrays
+    var backgrounds = ['Background2', 'Background3', 'Background4', 'Background5'];
+    var headers = ['Header1', 'Header2', 'Header3', 'Header4'];
+    var colors = ['red', 'blue', 'green', 'yellow'];
+
+    //Math
+    backgroundsRandom = Math.floor((Math.random() * backgrounds.length));
+    headerNumber = Math.floor((Math.random() * headers.length));
+    color = Math.floor((Math.random() * colors.length));
+
+    //Random number output
+    var a = document.getElementById("Display3")
+
+    a.innerHTML = Math.floor((Math.random() * 100) + 1);
+    /*
+    var b = document.getElementById("Header1")
+    var c = document.getElementById("Header2")
+    var d = document.getElementById("Header3")
+    var e = document.getElementById("Header4")
+    */
+    
+    
+
+    //Parameters
+    if (a.innerHTML >= 0)
     {
-        y.innerHTML = 'Under 25';
+        document.getElementById(headers[headerNumber]).style.color = colors[color];
     } 
-    if (x.innerHTML >= 25) {
+    if (a.innerHTML >= 25) {
 
-        y.innerHTML = "Over 25"
+        document.getElementById(backgrounds[backgroundsRandom]).style.backgroundColor = colors[color];
     }
-    if (x.innerHTML >= 50) {
+    if (a.innerHTML >= 50) {
 
-        y.innerHTML = "Over 50"
+        document.getElementById(headers[headerNumber]).style.borderColor = colors[color];
     }
-    if (x.innerHTML >= 75) {
+    if (a.innerHTML >= 75) {
 
-        y.innerHTML = "Over 75"
+        document.getElementById(headers[headerNumber]).style.color=colors[color];
     }
 
 }
