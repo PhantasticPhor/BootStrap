@@ -6,7 +6,7 @@
     margin-top: 50px;
     animation-name: relative;
     
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     position: relative;
   }
@@ -15,14 +15,24 @@
     left: 27%;
     animation-timing-function: ease-out;
   }
+  #yellowtwo {
+    background: yellow;
+    right: -1000px;
+    animation-timing-function: ease-out;
+  }
   #blue {
     background: blue;
     left: 56%;
     animation-timing-function: ease-out;
   }
+  #yellow {
+    background: blue;
+    left: 20%;
+    animation-timing-function: ease-out;
+  }
   @keyframes relative {
     0% {
-      top: 0px;
+      top: -500px;
     }
     100% {
       top: 2000px;
