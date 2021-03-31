@@ -1,19 +1,13 @@
 
-/* Random number generator button*/
-#Random { 
-    background-color: rgb(57, 199, 255);
-    border-radius: 30px;
-}
-
 /* #Random output */
 #Display { 
     font-size: 300%;
-    color: white;
+    color: black;
 }
 
 #Display2 {
     font-size: 300%;
-    color: white;
+    color: black;
 }
 
 #Display3 {
