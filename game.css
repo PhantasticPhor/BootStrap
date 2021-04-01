@@ -1,49 +1,35 @@
-.button-custom {
-    margin: 20px;
-    padding: 20px;
+#Background {
+    background-color: black;
+    color: white;
 }
 
-.card-container {
-    max-width: 35rem;
-    margin-bottom: 20px;
-    padding: 20px;
-    /* background-color: #c00000; */
-    background-color: rgba(153, 0, 0, 0.685);
-
+.enemyHand {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.glow {
-    box-shadow:
-        inset 0 0 50px #fff,
-        inset 20px 0 60px violet,
-        inset -20px 0 60px blue,
-        inset 20px 0 300px violet,
-        inset -20px 0 300px blue,
-          0 0 50px #fff,
-          -10px 0 60px violet,
-          10px 0 60px blue;
+.cardName {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.text-center {
-    text-align: center;
-}
-.banner-custom-enemy {
-    text-align: center;
-    color: red;
-    background-color: rgba(24, 3, 98, 0.192);
-    margin-top: 20px;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+#cardPic {
+    height:18vh;
+    object-fit: cover;
+    object-position: 20% 1%;
 }
 
-.banner-custom-player {
-    text-align: center;
-    color: rgb(22, 251, 240);
-    background-color: rgba(235, 37, 169, 0.192);
-    margin-top: 20px;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+.cardStats {
+    margin-bottom:0px;
 }
-    
+
+.cardBtn {
+    margin-top:0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    border-color:black;
+}
