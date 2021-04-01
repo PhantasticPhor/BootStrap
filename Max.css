@@ -42,7 +42,7 @@
     }
 
     50% {
-      top: 300px;
+      top: 395px;
     }
 
     100% {
@@ -60,11 +60,11 @@
     }
 
     50% {
-      top: 300px;
+      top: 395px;
     }
 
     55% {
-      top: 300px;
+      top: 395px;
     }
 
     100% {
@@ -82,11 +82,11 @@
     }
 
     50% {
-      top: 300px;
+      top: 395px;
     }
 
     60% {
-      top: 300px;
+      top: 395px;
     }
 
     100% {
@@ -123,8 +123,6 @@
   #maxText {
     margin: 0 25px;
     color: white;
-    background-color:rgba(54, 151, 203, 0.4);
-    border-color: #212529;
     font-size: 21px;
     font-family: monospace ;
     padding: 10px;
