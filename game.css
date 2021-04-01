@@ -3,10 +3,21 @@
     color: white;
 }
 
+.separateEnemyPlayer {
+    height:20vh;
+}
+
 .enemyHand {
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+.playerHand {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:35vh;
 }
 
 .cardName {
@@ -25,11 +36,25 @@
     margin-bottom:0px;
 }
 
-.cardBtn {
+.cardAttackBtn {
     margin-top:0.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:red;
     border-color:black;
+}
+
+.cardBtn {
+    margin-top:0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    border-color:black;
+}
+
+
+.bottomScreen {
+    height:20vh;
 }

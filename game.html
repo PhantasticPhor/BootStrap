@@ -81,8 +81,8 @@
 
     <body>
         <div class="jumbotron">
-
-          <div class="enemyHand">
+          <!-- player cards -->
+          <div class="playerHand">
             <div class="card" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
@@ -92,7 +92,7 @@
                 <p class="card-text cardStats">Defense: 10</p>
                 <p class="card-text cardStats">Type: </p>
 
-                <a href="#" class="btn btn-primary cardBtn">Attack This Opponent</a>
+                <a href="#" class="btn btn-primary cardAttackBtn">Attack This Opponent</a>
               </div>
             </div>
 
@@ -109,7 +109,7 @@
                 <p class="card-text cardStats">Defense: 10</p>
                 <p class="card-text cardStats">Type: </p>
 
-                <a href="#" class="btn btn-primary cardBtn">Attack This Opponent</a>
+                <a href="#" class="btn btn-primary cardAttackBtn">Attack This Opponent</a>
               </div>
             </div> 
 
@@ -126,7 +126,7 @@
                 <p class="card-text cardStats">Defense: 10</p>
                 <p class="card-text cardStats">Type: </p>
 
-                <a href="#" class="btn btn-primary cardBtn">Attack This Opponent</a>
+                <a href="#" class="btn btn-primary cardAttackBtn">Attack This Opponent</a>
               </div>
             </div>
 
@@ -143,49 +143,88 @@
                 <p class="card-text cardStats">Defense: 10</p>
                 <p class="card-text cardStats">Type: </p>
 
-                <a href="#" class="btn btn-primary cardBtn">Attack This Opponent</a>
+                <a href="#" class="btn btn-primary cardAttackBtn">Attack This Opponent</a>
               </div>
             </div>
           </div>   
-        <!-- EnemyCards -->
-        <!-- <div class="card-group card-container mx-auto">
-            <div class="card">
-              <img src="" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title card-name">Name</h5>
-                <p class="card-text card-attack">Attack: 10</p>
-                <p class="card-text card-defense">Defense: 10</p>
+        </div>
     
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
+        <div class="card-footer separateEnemyPlayer">
+          <small class="text-muted"></small>
+        </div>
+
+        <div class="jumbotron fixed-bottom">
+          <!-- player cards -->
+          <div class="playerHand">
+            <div class="card" style="width: 18rem;">
+              <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
+              <div class="card-body">
+                <h5 class="card-title cardName">Card title</h5>
+                <p class="card-text cardStats">Health: 100%</p>
+                <p class="card-text cardStats">Attack: 8</p>
+                <p class="card-text cardStats">Defense: 10</p>
+                <p class="card-text cardStats">Type: </p>
+
+                <a href="#" class="btn btn-primary cardBtn">Use this Hero</a>
               </div>
             </div>
-    
-            <div class="card">
-              <img src="" class="card-img-top" alt="...">
+
+            <div class="card-footer">
+              <small class="text-muted"></small>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
-                <h5 class="card-title card-name">Name</h5>
-                <p class="card-text card-attack">Attack: 10</p>
-                <p class="card-text card-defense">Defense: 10</p>
+                <h5 class="card-title cardName">Card title</h5>
+                <p class="card-text cardStats">Health: 100%</p>
+                <p class="card-text cardStats">Attack: 8</p>
+                <p class="card-text cardStats">Defense: 10</p>
+                <p class="card-text cardStats">Type: </p>
+
+                <a href="#" class="btn btn-primary cardBtn">Use this Hero</a>
               </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
+            </div> 
+
+            <div class="card-footer">
+              <small class="text-muted"></small>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
+              <div class="card-body">
+                <h5 class="card-title cardName">Card title</h5>
+                <p class="card-text cardStats">Health: 100%</p>
+                <p class="card-text cardStats">Attack: 8</p>
+                <p class="card-text cardStats">Defense: 10</p>
+                <p class="card-text cardStats">Type: </p>
+
+                <a href="#" class="btn btn-primary cardBtn">Use this Hero</a>
               </div>
             </div>
-            <div class="card">
-              <img src="" class="card-img-top" alt="...">
+
+            <div class="card-footer">
+              <small class="text-muted"></small>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
-                <h5 class="card-title card-name">Name</h5>
-                <p class="card-text card-attack">Attack: 10</p>
-                <p class="card-text card-defense">Defense: 10</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
+                <h5 class="card-title cardName">Card title</h5>
+                <p class="card-text cardStats">Health: 100%</p>
+                <p class="card-text cardStats">Attack: 8</p>
+                <p class="card-text cardStats">Defense: 10</p>
+                <p class="card-text cardStats">Type: </p>
+
+                <a href="#" class="btn btn-primary cardBtn">Use this Hero</a>
               </div>
             </div>
-          </div>
-    
+          </div>   
+        </div>
+
+        <div class="card-footer bottomScreen">
+          <small class="text-muted"></small>
+        </div>
           <!-- Player Cards -->
           <!-- <div class='container-fluid banner-custom-player'>
             <p class='lead'>Player Cards</p>
