@@ -26,3 +26,23 @@
     border-style: solid;
 
 }
+
+#pGraph2 {
+
+    background-color: rgb(253, 255, 139, 0.4);
+    padding: 3% 3%;
+    margin: 1% 6%;
+
+   
+    
+}
+
+#pGraph2 p {
+    font-family: monospace;
+    color: black;
+    font-size: 150%;
+    text-indent: 10%;
+    padding: 1% 1%;
+    margin: 1% 6%;
+    
+}
