@@ -8,7 +8,9 @@
 }
 
 .card_width {
-    max-width:225px;
+    max-width:222px;
+    min-width:222px;
+    display:flex;
 }
 
 .enemyHand {
@@ -28,6 +30,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-top:-.75vh;
 }
 
 #cardPic {
@@ -61,12 +64,13 @@
 }
 
 .cardBtn {
-    margin-top:0.5px;
+    margin-top:0.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:rgba(75,125,192,255);
     border-color:black;
+    color:white;
 }
 
 .cardBtn:hover {
