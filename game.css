@@ -7,6 +7,10 @@
     height:20vh;
 }
 
+.card_width {
+    max-width:225px;
+}
+
 .enemyHand {
     display:flex;
     justify-content:center;
@@ -27,9 +31,13 @@
 }
 
 #cardPic {
-    height:18vh;
+    height:180px;
+    width:220px;
     object-fit: cover;
-    object-position: 20% 1%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    object-position: 50% 1%;
 }
 
 .cardStats {
@@ -41,19 +49,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:red;
+    background-color:rgba(93,86,77,255);
+    border-color:black;
+    color:white
+}
+
+.cardAttackBtn:hover {
+    color:white;
+    background-color:rgba(195,43,40,255);
     border-color:black;
 }
 
 .cardBtn {
-    margin-top:0.5vh;
+    margin-top:0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:blue;
+    background-color:rgba(75,125,192,255);
     border-color:black;
 }
 
+.cardBtn:hover {
+    color:white;
+    background-color:rgba(75,190,203,255);
+    border-color:black;
+}
 
 .bottomScreen {
     height:20vh;

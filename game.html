@@ -12,9 +12,9 @@
     <!--Individual Stylesheet-->
     <link href="game.css" rel="stylesheet">
     <!--Banner-->
-    <div>
+    <!-- <div>
         <img src="./Pictures/phantastickPhorBanner.jpg.png" class="mx-auto d-block" />
-    </div>
+    </div> -->
     <!--Title-->
     <title>Home</title>
 </head>
@@ -80,10 +80,17 @@
 
 
     <body>
+
+      <div class='text-center button-custom'>
+        <button disabled id='play' type="button" class="btn-lg btn btn-primary">Upgrade</button>
+        <button disabled id='playerTurn' type="button" class="btn-lg btn btn-success">Attack</button>
+        <button disabled id='done' type="button" class="btn-lg btn btn-danger">Done</button>
+      </div> -->
+
         <div class="jumbotron">
           <!-- player cards -->
           <div class="playerHand">
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -100,7 +107,7 @@
               <small class="text-muted"></small>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -117,7 +124,7 @@
               <small class="text-muted"></small>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -134,7 +141,7 @@
               <small class="text-muted"></small>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -156,7 +163,7 @@
         <div class="jumbotron fixed-bottom">
           <!-- player cards -->
           <div class="playerHand">
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -173,7 +180,7 @@
               <small class="text-muted"></small>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -190,7 +197,7 @@
               <small class="text-muted"></small>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -207,7 +214,7 @@
               <small class="text-muted"></small>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card_width" style="width: 18rem;">
               <img src="C:\Users\sailo\Documents\GitHub\BootStrap\Pictures\InvisibleWoman.png" class="card-img-top" id="cardPic" alt="Invisible Woman">
               <div class="card-body">
                 <h5 class="card-title cardName">Card title</h5>
@@ -225,54 +232,8 @@
         <div class="card-footer bottomScreen">
           <small class="text-muted"></small>
         </div>
-          <!-- Player Cards -->
-          <!-- <div class='container-fluid banner-custom-player'>
-            <p class='lead'>Player Cards</p>
-          </div>
-          <div class="card-group card-container mx-auto">
-            <div class="card">
-              <img src="" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title card-name">Name</h5>
-                <p class="card-text card-attack">Attack: 10</p>
-                <p class="card-text card-defense">Defense: 10</p>
     
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
-              </div>
-            </div>
-    
-            <div class="card">
-              <img src="" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title card-name">Name</h5>
-                <p class="card-text card-attack">Attack: 10</p>
-                <p class="card-text card-defense">Defense: 10</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
-              </div>
-            </div>
-            <div class="card">
-              <img src="" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title card-name">Name</h5>
-                <p class="card-text card-attack">Attack: 10</p>
-                <p class="card-text card-defense">Defense: 10</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
-              </div>
-            </div>
-          </div>
-    
-    
-        <div class='text-center button-custom'>
-            <button disabled id='play' type="button" class="btn-lg btn btn-primary">Upgrade</button>
-            <button disabled id='playerTurn' type="button" class="btn-lg btn btn-success">Attack</button>
-            <button disabled id='done' type="button" class="btn-lg btn btn-danger">Done</button>
-        </div> -->
+        
         <!-- <script src="game.js"></script> -->
 </body>
 

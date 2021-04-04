@@ -1,13 +1,15 @@
-/* TODO:
+/*
 1. variables for player health/enemy health
-2. variables for cards, and card stats
+2. variables for cards, and card stats (attack, defense, type)
 3. display variables that allow us to change the page
 4. add on click listeners to buttons
     a. have only play game working at first
     b. have attack and enemy turn buttons working
+    c. have selected player card and selected enemy card work
 5. game logic
 */
 
+/*
 //game logic
 var playerHealth = 50;
 var enemyHealth = 50;
@@ -430,4 +432,4 @@ function gameOver() {
     return false;
 }
 
-startGame();
+startGame(); */
