@@ -26,9 +26,20 @@
 /*Jason END------------------------------------------*/
 
 /*Marc CSS------------------------------------------*/
-.tablesize {
+  .tablesize {
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
     height: 100px;
     font-size: 30;
+  }
+  
+  .tablesize table, th, td {
+    border: 3px solid #333333;
+    text-align: center;
+  }
+  .tablesize th, td {
+    padding: 15px;
+    font-size: large;
   }
 /*Marc End------------------------------------------*/
