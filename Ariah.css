@@ -33,3 +33,42 @@
     font-family: fantasy;
     font-size: 40px;
 }
+
+.clobberinAnimate {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 80px;
+    color: #000000;
+    animation: clobberin 15s steps(15) infinite;
+  }
+  
+  @keyframes clobberin {
+    0%, 100%{opacity: 0; }
+    10%, 80%{opacity: 1; }
+  }
+
+.riaImage {
+    width: 90%; 
+    max-width: 900rem; 
+    margin-left:0px;
+    height: auto;
+    padding: 0 1vw 0 1vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .riaImage2 {
+    width: 40%; 
+    max-width: 400rem; 
+    margin-left:0px;
+    height: auto;
+    padding: 0 1vw 0 1vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+#lastSection {
+    padding-bottom:500px;
+}

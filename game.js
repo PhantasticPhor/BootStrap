@@ -9,7 +9,7 @@
 5. game logic
 */
 
-/*
+
 //game logic
 var playerHealth = 50;
 var enemyHealth = 50;
@@ -39,38 +39,46 @@ var enemyHealthDisp = document.getElementById('enemyHealth');
 //event variables
 const playerTurnButton = document.getElementById('playerTurn');
 playerTurnButton.addEventListener('click', playerAttack);
+console.log("player attacked");
 
 const doneButton = document.getElementById('done');
 doneButton.addEventListener('click', done);
+console.log("done button clicked");
 
 const upgradeButton = document.getElementById('play');
 upgradeButton.addEventListener('click', upgrade);
+console.log("upgrade button clicked");
+
+console.log(gameInfoDisp);
+console.log(playerHealthDisp);
+console.log(enemyHealthDisp);
 
 
 function playerAttack() {
-    if(!gameOver()) {
+    //if(!gameOver()) {
     console.log("In player attack");
-    cardBattle();
-    gameOver();
-    playerDone = true;
-    disableAllButDone();
-    }
+    //cardBattle();
+    //gameOver();
+    //playerDone = true;
+    //disableAllButDone();
+    //}
 }
-
 
 function playerTurn(){
-    if(!gameOver() && !playerDone) {
+    //if(!gameOver() && !playerDone) {
     enableAllButtons();
-    gameOver();
-    }
-}
+    //gameOver();
+    //}
+} /*
 function setUpCardBanks() {
     for (var i = 0; i < cardsBankLength; i++) {
 
         var cardStats = getRandomStats();
-        // [1, 2]
+        // [1, 2, 3, 4]
         cardStats.push(getRandomName());
-        // [1, 2, 'random name']
+        // [1, 2, 'random name']   -  for enemy cards
+        cardStats.push(getRandomFanasticFour());
+        //get random fantastic four hero for player
         cardStats.push(getRandomColor());
         // [1, 2, 'random name', 'random color']
         cardStats.push(i);
@@ -106,12 +114,22 @@ function setUpCardBanks() {
     }
 }
 
+//done
 function getRandomStats() {
     var ret = [];
+    var health = 100;
     var attack = parseInt(Math.random() * 6 + 4);
     var defense = parseInt(Math.random() * 8 + 6);
+    ret.push(health);
     ret.push(attack);
     ret.push(defense);
+    return ret;
+}
+
+function getRandomFantasticFour() {
+    array FanasticFour = [["Invisible Woman",100,4,10],["Mr. Fantastic",100,7,6],["Human Torch",100,9,7],["The Thing",100,9,9]]
+    var length = parseInt(Math.random() * 4 + 1);
+    var ret = "";
     return ret;
 }
 
@@ -216,6 +234,7 @@ function cardIsDead(i) {
 function initializeCards(){
     //console.log("Calling");
     //Get a list of all the cards damage in play in the game:
+    cardsHealth = document.getElementsByClassName('card-health'); //added
     cardsDamage = document.getElementsByClassName('card-attack');
     cardsDefense= document.getElementsByClassName('card-defense');
     cardsName = document.getElementsByClassName('card-name');
@@ -357,18 +376,18 @@ function startGame() {
     setUpCardBanks();
     initializeCards();
     enableAllButtons();
-}
+}*/
 function enableAllButtons() {
-    if (initialized) {
-        clearInterval(enemyAIInterval);
-    }
-    initialized = true;
-    initializeCards();
+    //if (initialized) {
+    //    clearInterval(enemyAIInterval);
+    //}
+    //initialized = true;
+    //initializeCards();
     playerTurnButton.disabled = false;
     doneButton.disabled = false;  
     upgradeButton.disabled = false;
 
-}
+}/*
 function upgrade() {
     console.log("Upgrade: " + lastCardID);
     playerCards[lastCardID][0] += (parseInt(Math.random() * playerCards[lastCardID][0] + playerCards[lastCardID][0]/4));
@@ -430,6 +449,6 @@ function gameOver() {
         return true;
     }
     return false;
-}
+} */
 
-startGame(); */
+startGame(); 
